@@ -1,13 +1,13 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
-*main-printsandthatpieceofartisuseful,followedbynewline.
-*
+*main-printsstandarderror
 *Return: Always 1.
 */
 int main(void)
 {
-	size_t fwrite(STDOUT_FILENO), ("and that piece of art is useful\"-DoraKorpar, 2015-10-19\n", 59);
-
+	write(STDOUT_FILENO, "and that piece of art is useful
+			\" - Dora Korpar, 2015-10-19\n", 59);
 	return (1);
 }
