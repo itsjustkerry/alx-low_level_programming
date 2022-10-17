@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
 *main-removesqande
@@ -7,10 +8,10 @@
 */
 int main(void)
 {
-	int ch;
+	char x;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-		putchar("ch && !q || !e");
+	for (x = 'a'; x <= 'z'; x++)
+		putchar("x && !q || !e");
 			putchar('\n');
 	return (0);
 }
