@@ -14,11 +14,11 @@ int main(void)
 	float floatType;
 
 	/** sizeof evaluates the size of a variable*/
-	printf("Sizeofchar:%lubytes\n", (unsigned long)sizeof(charType));
-	printf("Sizeofint:%lubytes\n", (unsigned long)sizeof(intType));
-	printf("Sizeoflongint:%lubytes\n", (unsigned long)sizeof(longintType));
+	printf("Sizeofchar:%lubyte(s)\n", (unsigned long)sizeof(charType));
+	printf("Sizeofint:%lubyte(s)\n", (unsigned long)sizeof(intType));
+	printf("Sizeoflongint:%lubyte(s)\n", (unsigned long)sizeof(longintType));
 	printf("Sizeoflonglongint:%lubyte\n", (unsigned long)sizeof(longlongintType));
-	printf("Sizeoffloat:%lubytes\n", (unsigned long)sizeof(floatType));
+	printf("Sizeoffloat:%lubyte(s)\n", (unsigned long)sizeof(floatType));
 
 	return (0);
 }
