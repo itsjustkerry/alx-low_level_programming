@@ -7,7 +7,7 @@
 */
 int main(void)
 {
-	fwrite(STDOUT_FILENO, "and that piece of art is useful\"-DoraKorpar, 2015-10-19\n", 59);
+	size_t fwrite(STDOUT_FILENO), ("and that piece of art is useful\"-DoraKorpar, 2015-10-19\n", 59);
 
 	return (1);
 }
