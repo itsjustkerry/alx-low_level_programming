@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
 *main-printsalphabetinupperthenlowercase
@@ -7,7 +8,7 @@
 */
 int main(void)
 {
-	char F
+	char F;
 
 	for (F = 'a'; F <= 'z'; F++)
 		putchar(F);
