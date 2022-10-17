@@ -7,7 +7,7 @@
 */
 int main(void)
 {
-	write(STDOUT_FILENO, "and that piece of art is useful\"-DoraKorpar, 2015-10-19\n", 59);
+	fwrite(STDOUT_FILENO, "and that piece of art is useful\"-DoraKorpar, 2015-10-19\n", 59);
 
 	return (1);
 }
