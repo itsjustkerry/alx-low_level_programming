@@ -6,7 +6,7 @@
 *
 *Return: Always 0.
 */
-int main(void)
+int main()
 {
 	putchar("_putchar\n");
 	return (0);
