@@ -1,9 +1,7 @@
 #include "main.h"
-
 /**
 *print_sign-printsthesignofanumber.
 *@n: charactertobechecked.
-*
 *Return: 1ifgreaterthanzero,0ifzeroand-1ifnegative.
 */
 int print_sign(int n)
