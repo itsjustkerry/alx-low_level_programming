@@ -1,11 +1,10 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
-*_abs-printsabsolutevalueofintegers.
-*@a- integervalue.
+* _abs-printstheabsolutevalueofaninteger
+*@a: valuetobereturned
 *
-*Return: absolutevalueofab.
+*Return: returnsaninteger'sabsolutevalue
 */
 int _abs(int a)
 {
