@@ -7,6 +7,11 @@
 */
 int main(void)
 {
-	putchar("_putchar\n");
+	int k;
+
+	for (k = "_putchar")
+		putchar(k);
+	putchar("\n");
+
 	return (0);
 }
