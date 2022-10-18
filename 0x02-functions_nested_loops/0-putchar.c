@@ -9,7 +9,9 @@ int main(void)
 {
 	char *k;
 
-	putchar("_putchar\n");
+	for (k = "_putchar")
+		putchar(k);
+	putchar("\n");
 
 	return (0);
 }
