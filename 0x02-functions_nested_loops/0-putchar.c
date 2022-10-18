@@ -11,8 +11,8 @@ int main(void)
 
 	while (*k)
 	{
-		_putchar(*k);
-		k++
+		putchar(*k);
+		k++;
 	}
 	_putchar("\n");
 
