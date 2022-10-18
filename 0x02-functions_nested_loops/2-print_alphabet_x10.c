@@ -3,9 +3,9 @@
 /**
 *print_alphabet_x10-printsalphabet10times.
 *
-*Return: Always 0.
+*Return: x10a-z
 */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 	int k, s;
 
