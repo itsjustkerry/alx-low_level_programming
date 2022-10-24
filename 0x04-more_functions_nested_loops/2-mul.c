@@ -6,10 +6,10 @@
  *@a: number to be multiplied
  *@b: number to be multiplied
  *
- *Return: Always 0
+ *Return: result
  */
 int mul(int a, int b)
 {
-	printf("%d\n", mul(a, b),a ,b);
-	return (0);
+	printf("%d\n", mul(a, b));
+	return (a * b);
 }
