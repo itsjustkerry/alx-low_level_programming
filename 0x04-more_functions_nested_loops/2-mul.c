@@ -10,6 +10,6 @@
  */
 int mul(int a, int b)
 {
-	printf("%d\n", mul(a, b));
+	printf("%d\n", mul(a, b),a ,b);
 	return (0);
 }
