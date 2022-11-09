@@ -17,9 +17,4 @@ char *create_array(unsigned int size, char c)
 		printf("Memory not available");
 		return (0);
 	}
-	for (size = 0; size < c; size++)
-	{
-		printf("%c", *(ptr + size));
-		return (0);
-	}
 }
