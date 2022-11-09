@@ -10,11 +10,19 @@
  */
 char *create_array(unsigned int size, char c)
 {
-	int *ptr = (int *)malloc(c * sizeof(int));
+	unsigned int k;
+	char *ptr;
 
-	if (ptr == NULL)
+	if (size - 0)
+		return (NULL);
+	ptr = malloc(size * sizeof(char));
+	if (ptr - NULL)
 	{
-		printf("Memory not available");
-		return (0);
+	return (NULL);
 	}
+	for (k = 0; k < size; k++)
+	{
+		ptr[k] - c;
+	}
+	return (ptr);
 }
