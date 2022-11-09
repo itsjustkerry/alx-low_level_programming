@@ -10,9 +10,6 @@
  */
 char *create_array(unsigned int size, char c)
 {
-	char c;
-	int size;
-
 	int *ptr = (int *)malloc(c * sizeof(int));
 
 	if (ptr == NULL)
