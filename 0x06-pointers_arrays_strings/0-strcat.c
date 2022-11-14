@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h> 
+#include <stdio.h>
 
 /**
  * _strcat- joins two strings together
@@ -12,8 +12,6 @@ char *_strcat(char *dest, char *src)
 {
 	char *ptr;
 
-	printf("%s\n", src);
-	printf("%s\n", dest);
 	ptr = _strcat(src, dest);
 	printf("%s\n", src);
 	printf("%s\n", dest);
